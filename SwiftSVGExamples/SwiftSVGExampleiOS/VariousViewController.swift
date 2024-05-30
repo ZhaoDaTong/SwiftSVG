@@ -72,7 +72,12 @@ class VariousViewController: UIViewController {
         }
         let singleVC = segue.destination as? SingleSVGViewController
         let thisItem = self.collectionViewData[selectedIndexPath.item]
-        singleVC?.svgURL = thisItem.url
+        
+        if #available(iOS 16.0, *) {
+            singleVC?.svgURL = URL(filePath: Bundle.main.path(forResource: "0djl2024052105_1716869209315", ofType: "svg")!)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
 }

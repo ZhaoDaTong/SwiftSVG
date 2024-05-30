@@ -71,6 +71,8 @@
 		8AC4DBD81CB37DC600137DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4DBD71CB37DC600137DC9 /* ViewController.swift */; };
 		8AC4DBDA1CB37DC600137DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4DBD91CB37DC600137DC9 /* Assets.xcassets */; };
 		8AC4DBDD1CB37DC600137DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4DBDB1CB37DC600137DC9 /* Main.storyboard */; };
+		8D6FCDDB2C08238F00C6FAC1 /* 0djl2024052105_1716869209315.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8D6FCDDA2C08238F00C6FAC1 /* 0djl2024052105_1716869209315.svg */; };
+		8DF4EC8A2BFCB14400399237 /* twbjy012024041810.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8DF4EC892BFCB14400399237 /* twbjy012024041810.svg */; };
 		E8235A6522F26C6800E8F1B3 /* alohaShirt.svg in Resources */ = {isa = PBXBuildFile; fileRef = E8235A6422F26C6800E8F1B3 /* alohaShirt.svg */; };
 /* End PBXBuildFile section */
 
@@ -182,6 +184,8 @@
 		8AC4DBD91CB37DC600137DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC4DBDC1CB37DC600137DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC4DBDE1CB37DC600137DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6FCDDA2C08238F00C6FAC1 /* 0djl2024052105_1716869209315.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 0djl2024052105_1716869209315.svg; sourceTree = "<group>"; };
+		8DF4EC892BFCB14400399237 /* twbjy012024041810.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = twbjy012024041810.svg; sourceTree = "<group>"; };
 		E8235A6422F26C6800E8F1B3 /* alohaShirt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = alohaShirt.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -264,7 +268,9 @@
 		47C6653A2356CB6A00AA0CA5 /* TestSVGs */ = {
 			isa = PBXGroup;
 			children = (
+				8D6FCDDA2C08238F00C6FAC1 /* 0djl2024052105_1716869209315.svg */,
 				E8235A6422F26C6800E8F1B3 /* alohaShirt.svg */,
+				8DF4EC892BFCB14400399237 /* twbjy012024041810.svg */,
 				387A04B122500F69000FA0CA /* baseball.svg */,
 				3876E9641EFCC16500F8C04E /* berlin.svg */,
 				380FED681F0697A800EDB255 /* Camel2.svg */,
@@ -427,6 +433,7 @@
 					};
 					8AC4DBBC1CB37DB800137DC9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LAQ77JB4T8;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
@@ -472,6 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF4EC8A2BFCB14400399237 /* twbjy012024041810.svg in Resources */,
 				387A04B222500F6A000FA0CA /* baseball.svg in Resources */,
 				381E99C31EFA0DC400839918 /* polygons.svg in Resources */,
 				380FED671F06951100EDB255 /* tiger.svg in Resources */,
@@ -491,6 +499,7 @@
 				176BC9FF1EE63FAB00F7B54C /* polylines.svg in Resources */,
 				3876E95F1EFCB2E000F8C04E /* pizza.svg in Resources */,
 				380FED0A1F00171B00EDB255 /* openclipart-Anonymous_Architetto_--_Camello.svg in Resources */,
+				8D6FCDDB2C08238F00C6FAC1 /* 0djl2024052105_1716869209315.svg in Resources */,
 				380FED061F00171B00EDB255 /* openclipart-1332611679.svg in Resources */,
 				176BC9CD1EE4C44E00F7B54C /* simple-rectangle.svg in Resources */,
 				380FED631F0692E500EDB255 /* MedievalBanners.svg in Resources */,
@@ -756,11 +765,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LAQ77JB4T8;
 				INFOPLIST_FILE = SwiftSVGExampleiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.SwiftSVGExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev_all;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 			};
@@ -773,11 +784,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LAQ77JB4T8;
 				INFOPLIST_FILE = SwiftSVGExampleiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.straussmade.SwiftSVGExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev_all;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 			};
